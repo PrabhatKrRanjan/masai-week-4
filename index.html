@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>EXPENSE  MANAGER</title>
+        <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+        <body class="background">
+            <div class="expFont">EXPENSE MANAGER</div>
+            <p>
+                <table>
+                    
+                    <td >
+                        <div class="marginLeft">
+                            <label class="labelFont"> Please </label><br>
+                            <label class="labelFont">Enter Details</label>
+                            <br>
+                            <label class="labelFont2">Name</label><br>
+                            <input class="labelFont2" id= "name" type="text" class = "personInput">
+                            <br>
+                            <label class="labelFont2">Enter your Salary/Income</label><br>
+                            <input id=sal1 class="labelFont2" type="number" class = "personInput">
+                            <br>
+                            <label class="labelFont2">Enter Other Source Income</label><br>
+                            <input id="sal2" class="labelFont2" type="number" name = "Other_Source" class = "personInput">
+                            <br>
+                            <p class="resultFont" id="namePrint"></p>
+                            <p class="resultFont" id="sumSal"> </p>
+                            <button class="calculate" onclick="expense()">Calculate</button>
+                            <p class="resultFont" id="output">  </p> 
+                        </div>
+                        
+                    </td>
+                    <td >
+                        <div class="marginLeft">
+                            <label class="labelFont">Enter Your Expenditure</label>
+                            <br>
+                            <label class="labelFont2">Rent</label><br>
+                            <input id="exp1" class="labelFont2" type="number"  class = "personInput" >
+                            <br>
+                            <label class="labelFont2">Travel</label><br>
+                            <input id="exp2" class="labelFont2" type="number" class = "personInput" >
+                            <br>
+                            <label class="labelFont2">Medicine</label><br>
+                            <input id="exp3" class="labelFont2" type="number" class = "personInput">
+                            <br>
+                            <label class="labelFont2">Food</label><br>
+                            <input id="exp4" class="labelFont2" type="number" class = "personInput">
+                            <br>
+                            <label class="labelFont2">Other Expenditure</label><br>
+                            <input id="exp5" class="labelFont2" type="number" class = "personInput">
+                            <br>
+                            <p class="resultFont" id="sumExp"></p>
+                        </div>                      
+                    </td>
+                </table>
+            </p>
+           
+        </body>
+   
+</html>

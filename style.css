@@ -1,0 +1,74 @@
+.expFont {
+    font-family: 'Faster One', cursive;
+    text-align: center;
+    font-size: 100px;
+    background:#212121;
+    height: 120px;
+    color:whitesmoke;
+}
+.background {
+  
+    background: #80DEEA;
+}
+.labelFont {
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+}
+.labelFont2 {
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    height: 35px;
+    width: 350px;
+}
+.calculate {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 25px;
+}
+.resultFont {
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+}
+.marginLeft {
+    margin-left: 350px;
+}
+
+
+@media (max-width: 1280px) {
+    .expFont {
+        font-family: 'Faster One', cursive;
+        text-align: center;
+        font-size: 50px;
+        background:#212121;
+        height: 60px;
+        color:whitesmoke;
+    }
+    .background {
+  
+        background: #757575;
+    }
+    .labelFont {
+        font-family: 'Chewy', cursive;
+        font-size: 20px;
+    }
+    .labelFont2 {
+        font-family: 'Concert One', cursive;
+        font-size: 15px;
+        height: 25px;
+        width: 200px;
+    }
+    .calculate {
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 20px;
+    }
+    .resultFont {
+        font-family: 'Righteous', cursive;
+        font-size: 20px;
+    }
+    .marginLeft {
+        margin-left: 150px;
+    }
+
+}
+
+
+       
